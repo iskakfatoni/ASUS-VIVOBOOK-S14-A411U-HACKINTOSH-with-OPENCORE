@@ -1357,9 +1357,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DW1YEJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>76B96B56-6B6D-44D3-82C8-4AF861F4594F</string>
+			<string></string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1374,9 +1374,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02DW1YEJHCC</string>
+			<string>C</string>
 			<key>SystemUUID</key>
-			<string>76B96B56-6B6D-44D3-82C8-4AF861F4594F</string>
+			<string></string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1387,9 +1387,9 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/8f/wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02052104GUJH4R1M</string>
+			<string></string>
 			<key>ROM</key>
-			<data>ESIzRFVm</data>
+			<data></data>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
