@@ -1293,9 +1293,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Z20TYJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>EF35AB87-993E-4CC7-AEE7-35335799839E</string>
+			<string></string>
 		</dict>
 		<key>Generic</key>
 		<dict>
@@ -1310,9 +1310,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Z20TYJHCC</string>
+			<string></string>
 			<key>SystemUUID</key>
-			<string>EF35AB87-993E-4CC7-AEE7-35335799839E</string>
+			<string></string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
