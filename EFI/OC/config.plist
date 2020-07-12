@@ -22,7 +22,63 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-DRTNIA.aml</string>
+				<string>SSDT-ALS0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPI0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-HPET.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SBUS-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-UIAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -46,7 +102,15 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+				<string>SSDT-EC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -1206,9 +1270,9 @@
 				<key>SystemAudioVolume</key>
 				<data>cA==</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1</string>
+				<string>-v keepsyms=1 alcid=3 -wegnoegpu</string>
 				<key>csr-active-config</key>
-				<data>AAAAAA==</data>
+				<data>/wcAAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>cnUtUlU6MjUy</data>
 			</dict>
@@ -1295,14 +1359,14 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>F7DEA199-D22E-4557-A559-E965CD713E49</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02928310QXJH4RFB</string>
+			<string>C02014104GUJH4RFB</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -1312,7 +1376,7 @@
 			<key>SystemSerialNumber</key>
 			<string></string>
 			<key>SystemUUID</key>
-			<string></string>
+			<string>F7DEA199-D22E-4557-A559-E965CD713E49</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1323,9 +1387,68 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>P/8f/wAAAAA=</data>
 			<key>MLB</key>
-			<string>C02928310QXJH4RFB</string>
+			<string>C02014104GUJH4RFB</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BIOSReleaseDate</key>
+			<string>05/13/2020</string>
+			<key>BIOSVendor</key>
+			<string></string>
+			<key>BIOSVersion</key>
+			<string>1037.120.87.0.0</string>
+			<key>BoardAssetTag</key>
+			<string></string>
+			<key>BoardLocationInChassis</key>
+			<string>Part Component</string>
+			<key>BoardManufacturer</key>
+			<string></string>
+			<key>BoardProduct</key>
+			<string>Mac-827FB448E656EC26</string>
+			<key>BoardSerialNumber</key>
+			<string>C02014104GUJH4RFB</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>1.0</string>
+			<key>ChassisAssetTag</key>
+			<string>MacBook-Aluminum</string>
+			<key>ChassisManufacturer</key>
+			<string></string>
+			<key>ChassisSerialNumber</key>
+			<string>C02CJ7ZJJHCC</string>
+			<key>ChassisType</key>
+			<integer>9</integer>
+			<key>ChassisVersion</key>
+			<string>Mac-827FB448E656EC26</string>
+			<key>FirmwareFeatures</key>
+			<data>N+EP/AAAAAA=</data>
+			<key>FirmwareFeaturesMask</key>
+			<data>P/8f/wAAAAA=</data>
+			<key>MemoryFormFactor</key>
+			<integer>0</integer>
+			<key>PlatformFeature</key>
+			<integer>50</integer>
+			<key>ProcessorType</key>
+			<integer>0</integer>
+			<key>SmcVersion</key>
+			<data></data>
+			<key>SystemFamily</key>
+			<string>MacBook Pro</string>
+			<key>SystemManufacturer</key>
+			<string></string>
+			<key>SystemProductName</key>
+			<string>MacBookPro15,2</string>
+			<key>SystemSKUNumber</key>
+			<string>Mac-827FB448E656EC26</string>
+			<key>SystemSerialNumber</key>
+			<string></string>
+			<key>SystemUUID</key>
+			<string>F7DEA199-D22E-4557-A559-E965CD713E49</string>
+			<key>SystemVersion</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
