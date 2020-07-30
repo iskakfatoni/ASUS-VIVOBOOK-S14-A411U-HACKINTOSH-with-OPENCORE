@@ -248,7 +248,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>AAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -274,7 +274,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>AAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -300,7 +300,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data></data>
+				<data>AAAAAA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -1357,7 +1357,7 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02CJ7ZJJHCC</string>
 			<key>SystemUUID</key>
 			<string>F7DEA199-D22E-4557-A559-E965CD713E49</string>
 		</dict>
@@ -1374,7 +1374,7 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string></string>
+			<string>C02CJ7ZJJHCC</string>
 			<key>SystemUUID</key>
 			<string>F7DEA199-D22E-4557-A559-E965CD713E49</string>
 		</dict>
