@@ -4,7 +4,7 @@
 - RAM : 12Gigs 2400Mhz. ++
 - Audio : Conexant CX8050
 - iGPU : Intel UHD 620
-- dGPU : Nvidia MX130
+- dGPU : Nvidia MX150
 - Wifi : QCA9377
 - Touchpad : ELAN1300
 - Fingerprint : ELAN1300
@@ -19,6 +19,7 @@
 - Power Management
 
 ## Not working status
+- dGPU : Nvidia MX150
 - Default wifi card (QCA9377)
 - Realtek card reader
 - Fingerprint Reader
