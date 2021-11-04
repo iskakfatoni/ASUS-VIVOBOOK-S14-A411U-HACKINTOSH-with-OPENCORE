@@ -8,7 +8,7 @@
 - Wifi : QCA9377
 - Touchpad : ELAN1300
 - Fingerprint : ELAN1300
-- Storage : SSD m2.sata 250gb + SSD sata 250Gb. ++
+- Storage : SSD m2.sata 512gb + SSD sata 250Gb. ++
 ## Working status
 - QE/CI Works
 - All USB
